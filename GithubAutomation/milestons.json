@@ -1,0 +1,113 @@
+[
+    {
+        "title": "Set Up OAuth2 User Registration Backend",
+        "description": "Implement OAuth2 authentication in the backend using Node.js, Passport.js, and JWT.",
+        "due_on": "2024-11-15T00:00:00Z",
+        "tasks": [
+            {
+                "title": "Initialize Node.js Project",
+                "description": "Set up a new Node.js project and install required packages for OAuth2 and JWT."
+            },
+            {
+                "title": "Configure OAuth2 in Passport.js",
+                "description": "Configure Passport.js with OAuth2 strategy for Google or GitHub."
+            },
+            {
+                "title": "Generate JWT Tokens",
+                "description": "Generate JWT tokens after successful OAuth2 authentication."
+            },
+            {
+                "title": "Secure API Endpoints with JWT",
+                "description": "Add JWT verification middleware to secure API endpoints."
+            }
+        ]
+    },
+    {
+        "title": "Database Design for User Registration",
+        "description": "Design the user schema for OAuth2 and integrate MongoDB with the backend.",
+        "due_on": "2024-11-20T00:00:00Z",
+        "tasks": [
+            {
+                "title": "Design User Schema",
+                "description": "Create a user schema for MongoDB, including OAuth provider details and user roles."
+            },
+            {
+                "title": "Implement User Model",
+                "description": "Implement Mongoose User model for creating and managing users."
+            },
+            {
+                "title": "Connect to MongoDB",
+                "description": "Set up MongoDB connection in Node.js and test CRUD operations for users."
+            }
+        ]
+    },
+    {
+        "title": "Front-End User Registration with OAuth2",
+        "description": "Develop the front-end interface for user registration and login using OAuth2.",
+        "due_on": "2024-11-25T00:00:00Z",
+        "tasks": [
+            {
+                "title": "Initialize Front-End Project",
+                "description": "Set up a front-end project using React or another framework."
+            },
+            {
+                "title": "Design Login/Registration UI",
+                "description": "Create OAuth2 login buttons and integrate with back-end authentication routes."
+            },
+            {
+                "title": "Handle JWT Token After Login",
+                "description": "Store JWT tokens securely in localStorage or httpOnly cookies."
+            },
+            {
+                "title": "Create Protected Routes",
+                "description": "Implement protected routes in the front-end using JWT for authentication."
+            }
+        ]
+    },
+    {
+        "title": "Testing and Securing the Application",
+        "description": "Perform end-to-end testing of the user registration flow and secure the app.",
+        "due_on": "2024-11-30T00:00:00Z",
+        "tasks": [
+            {
+                "title": "Test OAuth2 Flow",
+                "description": "Test the full OAuth2 login and registration flow from front-end to back-end."
+            },
+            {
+                "title": "Secure JWT Tokens",
+                "description": "Ensure that JWT tokens are securely issued, stored, and transmitted."
+            },
+            {
+                "title": "Implement HTTPS",
+                "description": "Ensure HTTPS is enabled for secure communication between front-end and back-end."
+            },
+            {
+                "title": "Rate Limiting and CSRF Protection",
+                "description": "Implement rate limiting and CSRF protection for login routes."
+            }
+        ]
+    },
+    {
+        "title": "Deployment and CI/CD",
+        "description": "Deploy the full stack application and set up CI/CD for continuous integration.",
+        "due_on": "2024-12-05T00:00:00Z",
+        "tasks": [
+            {
+                "title": "Deploy Back-End to AWS Lambda",
+                "description": "Deploy the Node.js back-end to AWS Lambda using Serverless or SAM."
+            },
+            {
+                "title": "Deploy Front-End to AWS S3",
+                "description": "Deploy the React front-end to AWS S3 as a static website."
+            },
+            {
+                "title": "Set Up CI/CD Pipeline",
+                "description": "Create a CI/CD pipeline using GitHub Actions or AWS CodePipeline for automatic deployment."
+            },
+            {
+                "title": "Monitor Application in Production",
+                "description": "Set up monitoring tools like AWS CloudWatch for performance and error tracking."
+            }
+        ]
+    }
+]
